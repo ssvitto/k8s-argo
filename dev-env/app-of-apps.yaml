@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: development
+  project: infrastructure
   source:
     repoURL: https://github.com/ssvitto/k8s-argo.git
     targetRevision: HEAD
